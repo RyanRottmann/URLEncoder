@@ -40,7 +40,8 @@ namespace URLEncoder
             //Console.WriteLine(encodedActivityName);
 
             Console.WriteLine("http://companyserver.com/content/{0}/files/{1}/{1}Report.pdf", encodedProjectName, encodedActivityName);
-            Console.ReadLine();
+            Console.WriteLine("End of program\nPress any key to close");
+            Console.ReadKey();
         }
 
         static bool IsValid(string input)
